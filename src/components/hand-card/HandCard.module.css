@@ -1,0 +1,30 @@
+.block__handCard {
+	@apply w-1/4 p-7 border border-color_one border-solid flex flex-col gap-32 items-center pt-5 pr-12 pb-12 pl-5 bg-color_two TABLET1024:min-w-80 MOBILE375:border-none;
+}
+
+.block__num {
+	@apply w-full flex justify-between;
+}
+
+.block__hand {
+	@apply bg-[url('/images/Union.png')] bg-no-repeat bg-cover bg-center w-44 h-44 flex items-center justify-center;
+}
+
+.hand {
+	@apply w-9 h-9;
+}
+
+.num {
+	@apply text-color_five font-sans text-base24;
+}
+
+.block__description {
+}
+
+.title {
+	@apply mb-5 font-bold text-color_three text-base24;
+}
+
+.description {
+	@apply text-color_seven font-medium text-base16;
+}

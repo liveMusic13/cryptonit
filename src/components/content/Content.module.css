@@ -1,0 +1,35 @@
+.wrapper_content {
+	@apply flex w-full h-full overflow-hidden MOBILE375:overflow-y-auto MOBILE375:overflow-x-hidden;
+}
+
+.mock__image {
+	/* @apply w-full h-auto; */
+	@apply w-full h-1/2 bg-[url('/images/mock_graph.png')] bg-no-repeat bg-cover bg-center PK1366:bg-[url('/images/mock_graph1366.png')] TABLET1024:bg-[url('/images/mock_graph1024.png')];
+
+	/* @media (max-width: 1366.98px) {
+		width: 82.5%;
+	} */
+	@media (max-width: 375.98px) {
+		height: 515px;
+	}
+}
+
+.block__content {
+	@apply w-full relative MOBILE375:bg-color_ten;
+
+	@media (max-width: 1366.98px) {
+		width: 82.5%;
+	}
+
+	@media (max-width: 1024.98px) {
+		width: 100%;
+	}
+
+	@media (max-width: 375.98px) {
+		height: 1625px;
+	}
+}
+
+.block__information {
+	@apply flex  h-1/2 overflow-hidden TABLET1024:pl-16 MOBILE375:flex-col MOBILE375:bg-color_ten MOBILE375:h-full;
+}

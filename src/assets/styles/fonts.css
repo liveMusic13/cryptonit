@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'Satoshi_Bold';
+	src: url('/fonts/Satoshi-Bold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Satoshi_Medium';
+	src: url('/fonts/Satoshi-Medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Satoshi_Regular';
+	src: url('/fonts/Satoshi-Regular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Satoshi_Black';
+	src: url('/fonts/Satoshi-Black.otf') format('opentype');
+}

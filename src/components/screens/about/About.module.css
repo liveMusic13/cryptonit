@@ -1,0 +1,103 @@
+.trusted {
+	/* @apply bg-[url('/images/bg_about.jpg')] bg-no-repeat bg-cover bg-center w-full h-screen pt-24 pl-24 flex flex-col gap-48 relative; */
+	@apply bg-[url('/images/bg_about.jpg')] bg-no-repeat bg-cover bg-center w-full h-3/4 pl-24 pt-36 relative TABLET1024:pl-5 TABLET1024:pt-14 TABLET1024:h-full MOBILE375:pt-7 MOBILE375:pl-4;
+	@media (max-width: 1024px) {
+		height: 810px;
+	}
+	@media (max-width: 375.98px) {
+		height: 534px;
+	}
+}
+
+.block__hello {
+	@apply flex gap-44 TABLET1024:flex-col TABLET1024:gap-14 TABLET1024:min-h-96;
+}
+
+.block__hello > h1 {
+	@apply text-base160 text-color_five font-black MOBILE375:text-base52;
+}
+
+.block__hello > h1 > span {
+	@apply block text-color_three -mt-16 MOBILE375:-mt-5;
+}
+
+.block__hello > p {
+	@apply w-1/3 font-medium text-color_three text-base20 mt-60 TABLET1024:mt-0 MOBILE375:text-base16 MOBILE375:w-80 MOBILE375:ml-2;
+}
+
+.double__arrow {
+	@apply w-24 h-24 absolute left-1/2 bottom-16 MOBILE375:left-1/3;
+}
+
+.gentlemen {
+	@apply bg-[url('/images/bg_gentlemen.jpg')] bg-no-repeat bg-cover bg-center w-full h-3/4 flex TABLET1024:block TABLET1024:h-auto;
+
+	/* grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0.75fr 1.25fr; */
+}
+
+.one {
+	@apply w-1/2 TABLET1024:w-full;
+}
+
+.two {
+	@apply w-1/2 TABLET1024:w-full;
+}
+
+.block__title {
+	@apply border-solid border-r border-b border-color_three h-1/3 w-full flex justify-center items-center TABLET1024:border-none TABLET1024:pt-20 TABLET1024:pb-14 TABLET1024:pl-5 MOBILE375:pt-7 MOBILE375:pl-4 MOBILE375:pb-10;
+}
+
+.block__title > h2 {
+	@apply text-base72 text-color_three font-black MOBILE375:text-base36 MOBILE375:leading-9;
+
+	@media (max-width: 375.98px) {
+		max-width: 340px;
+	}
+}
+
+.block__title > h2 > span {
+	@apply text-color_five;
+}
+
+.none {
+	@apply h-1/3  w-full TABLET1024:hidden MOBILE375:hidden;
+}
+
+.screen {
+	@apply h-2/3 w-full border-solid border-r border-color_three bg-[url('/images/bg_screen.png')] bg-no-repeat bg-cover bg-center TABLET1024:border-none TABLET1024:h-96 MOBILE375:h-auto MOBILE375:bg-[url('/images/bg_screen_mobile.png')] MOBILE375:bg-contain MOBILE375:-mt-20;
+
+	@media (max-width: 1024px) {
+		height: 496px;
+	}
+}
+
+.block__description {
+	@apply h-2/3 w-full border-solid border-t border-color_three text-base20 text-color_three flex flex-col gap-5 items-center justify-center TABLET1024:border-none TABLET1024:py-12 MOBILE375:pt-0 MOBILE375:-mt-12 MOBILE375:px-4;
+}
+
+.description_one {
+	@apply font-bold max-w-lg TABLET1024:text-center;
+}
+
+.description {
+	@apply font-medium max-w-lg TABLET1024:text-center;
+}
+
+.ourTeam {
+	@apply bg-color_ten pt-28 flex flex-col gap-16 items-center MOBILE375:pt-9 MOBILE375:gap-5;
+}
+
+.ourTeam__title {
+	@apply font-black text-base160 text-color_three MOBILE375:text-base52;
+}
+
+.block__team {
+	@apply w-full bg-color_ten border-t border-b border-color_one border-solid px-9 mb-5;
+}
+
+.row__one,
+.row__two,
+.row__three {
+	@apply flex TABLET1024:overflow-x-auto TABLET1024:border-r TABLET1024:border-color_one TABLET1024:border-solid MOBILE375:border-none;
+}
