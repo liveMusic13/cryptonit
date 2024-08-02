@@ -5,6 +5,7 @@ export default {
 		screens: {
 			PK1920: { max: '1920.98px' },
 			PK1366: { max: '1366.98px' },
+			PK1200: { max: '1200.98px' },
 			TABLET1024: { max: '1024.98px' },
 			MOBILE768: { max: '768.98px' },
 			MOBILE375: { max: '375.98px' },
@@ -37,6 +38,7 @@ export default {
 				base18: 'calc(var(--fz-standart) * 1.125)',
 				base20: 'calc(var(--fz-standart) * 1.25)',
 				base24: 'calc(var(--fz-standart) * 1.5)',
+				base28: 'calc(var(--fz-standart) * 1.75)',
 				base36: 'calc(var(--fz-standart) * 2.25)',
 				base52: 'calc(var(--fz-standart) * 3.25)',
 				base72: 'calc(var(--fz-standart) * 4.5)',

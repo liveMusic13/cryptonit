@@ -1,7 +1,9 @@
 import { useState } from 'react';
+import { useCheckWidth } from '../../../hooks/useCheckWidth';
 import styles from './LeftInterface.module.css';
 
 const LeftInterface = () => {
+	const { windowWidth } = useCheckWidth();
 	const [isViewInterface, setIsViewInterface] = useState(false);
 	const coinArray = [
 		{
@@ -70,16 +72,15 @@ const LeftInterface = () => {
 		},
 	];
 
-	const array =
-		window.innerWidth <= 1366.98 ? coinArray.slice(0, -1) : coinArray;
+	const array = windowWidth <= 1366.98 ? coinArray.slice(0, -1) : coinArray;
 
 	const miniCoin = [1, 2, 3, 4, 5];
 
-	// console.log(window.innerWidth, window.innerWidth <= 1024.98);
+	// console.log(windowWidth, windowWidth <= 1024.98);
 
 	return (
 		<>
-			{window.innerWidth <= 1024.98 && !isViewInterface ? (
+			{windowWidth <= 1024.98 && !isViewInterface ? (
 				<div className={styles.block__interface_mini}>
 					<button
 						className={styles.button__open}
@@ -107,7 +108,7 @@ const LeftInterface = () => {
 				<div
 					className={styles.block__interface}
 					style={
-						window.innerWidth <= 1024.98 && isViewInterface
+						windowWidth <= 1024.98 && isViewInterface
 							? {
 									position: 'absolute',
 									zIndex: '30',
@@ -117,12 +118,12 @@ const LeftInterface = () => {
 							: {}
 					}
 				>
-					{window.innerWidth <= 1024.98 && isViewInterface && (
+					{windowWidth <= 1024.98 && isViewInterface && (
 						<button
 							className={styles.button__open}
 							onClick={() => setIsViewInterface(!isViewInterface)}
 							style={
-								window.innerWidth <= 375.98 && isViewInterface
+								windowWidth <= 375.98 && isViewInterface
 									? { right: '12px' }
 									: {}
 							}
@@ -137,7 +138,7 @@ const LeftInterface = () => {
 							/>
 						</button>
 					)}
-					{window.innerWidth <= 1024.98 && isViewInterface && (
+					{windowWidth <= 1024.98 && isViewInterface && (
 						<div className={styles.block1024}>
 							<img
 								src='/images/icons/paper.svg'
@@ -147,7 +148,7 @@ const LeftInterface = () => {
 							<h2 className={styles.title}>List of tokens</h2>
 						</div>
 					)}
-					{window.innerWidth >= 1024.98 && (
+					{windowWidth >= 1024.98 && (
 						<h2 className={styles.title}>List of tokens</h2>
 					)}
 					<div className={styles.block__tokens}>

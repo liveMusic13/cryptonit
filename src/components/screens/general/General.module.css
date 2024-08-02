@@ -1,0 +1,23 @@
+.block__content {
+	@apply bg-color_ten pb-5 flex flex-col items-center justify-center TABLET1024:px-5 MOBILE375:px-0;
+}
+
+.title {
+	@apply fixed top-24 text-color_five text-base72 text-center font-black max-w-4xl bg-color_ten TABLET1024:left-5 TABLET1024:text-start TABLET1024:w-full MOBILE375:text-base36 MOBILE375:top-28;
+}
+
+.block__description {
+	@apply max-w-4xl mt-96 TABLET1024:max-w-full MOBILE375:mt-64;
+}
+
+.description {
+	@apply border border-solid border-color_one w-full p-20 flex flex-col items-center justify-center gap-2 MOBILE375:border-r-0 MOBILE375:border-l-0 MOBILE375:p-5;
+}
+
+.description > h2 {
+	@apply text-base52 text-color_three font-black mb-5 MOBILE375:text-base28;
+}
+
+.description > p {
+	@apply text-base20 text-color_three font-medium MOBILE375:text-base16;
+}

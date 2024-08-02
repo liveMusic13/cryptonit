@@ -1,5 +1,19 @@
 .wrapper_content {
 	@apply flex w-full h-full overflow-hidden MOBILE375:overflow-y-auto MOBILE375:overflow-x-hidden;
+	/* @apply flex w-full h-full overflow-hidden overflow-y-auto MOBILE375:overflow-x-hidden bg-color_ten; */
+}
+
+.wrapper_content::-webkit-scrollbar {
+	width: 2px;
+}
+.wrapper_content::-webkit-scrollbar-thumb {
+	background-color: black;
+}
+.wrapper_content::-webkit-scrollbar-button {
+	display: none;
+}
+.wrapper_content::-webkit-scrollbar-track {
+	background: black;
 }
 
 .mock__image {
@@ -15,7 +29,7 @@
 }
 
 .block__content {
-	@apply w-full relative MOBILE375:bg-color_ten;
+	@apply w-full relative MOBILE375:bg-color_ten h-full;
 
 	@media (max-width: 1366.98px) {
 		width: 82.5%;

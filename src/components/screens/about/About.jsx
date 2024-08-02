@@ -1,3 +1,4 @@
+import { useCheckWidth } from '../../../hooks/useCheckWidth';
 import Footer from '../../footer/Footer';
 import HandCard from '../../hand-card/HandCard';
 import Header from '../../header/Header';
@@ -6,6 +7,8 @@ import People from '../../people/People';
 import styles from './About.module.css';
 
 const About = () => {
+	const { windowWidth } = useCheckWidth();
+
 	const teamOne = [
 		{
 			id: 0,
@@ -158,7 +161,7 @@ const About = () => {
 					<div className={styles.block__title}>
 						<h2>
 							<span>Gentlemen,</span> gasoline{' '}
-							{window.innerWidth <= 375.98 && (
+							{windowWidth <= 375.98 && (
 								<>
 									<br />
 								</>

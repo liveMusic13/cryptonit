@@ -1,10 +1,14 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import styles from './Header.module.css';
 
 const Header = () => {
+	const nav = useNavigate();
+
 	return (
 		<header className={styles.header}>
-			<h1 className={styles.logo}>Cryptonit</h1>
+			<h1 className={styles.logo} onClick={() => nav('/')}>
+				Cryptonit
+			</h1>
 			<div className={styles.block__input}>
 				<img
 					src='/images/icons/search.svg'

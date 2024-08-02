@@ -1,19 +1,26 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import styles from './Footer.module.css';
 
 const Footer = () => {
+	const nav = useNavigate();
+
 	return (
 		<footer className={styles.footer}>
 			<div className={styles.block__logo}>
-				<h1 className={styles.logo}>Cryptonit</h1>
+				<h1 className={styles.logo} onClick={() => nav('/')}>
+					Cryptonit
+				</h1>
 				<p className={styles.copy}>Copyright © TRADeOT. All Rights Reserved.</p>
 			</div>
 			<ul className={styles.menu}>
 				<li className={styles.list}>
 					<Link to='/about'>About</Link>
 				</li>
-				<li className={styles.list}>Privacy Policy </li>
-				<li className={styles.list}>Terms of Use</li>
+				<li className={styles.list}>
+					<Link to='/general-terms'>GENERAL TERMS AND CONDITIONS OF USE </Link>
+				</li>
+				{/* <li className={styles.list}>Privacy Policy </li>
+				<li className={styles.list}>Terms of Use</li> */}
 			</ul>
 			<div className={styles.block__right}>
 				<div className={styles.block__socials}>

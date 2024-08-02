@@ -9,6 +9,23 @@
 		width: 100%;
 		/* margin-top: 800px; */
 	}
+
+	@media (min-width: 1024px) and (max-width: 1366px),
+		(min-height: 600px) and (max-height: 768px) {
+		overflow-y: scroll;
+	}
+}
+.wrapper_holders::-webkit-scrollbar {
+	width: 2px;
+}
+.wrapper_holders::-webkit-scrollbar-thumb {
+	background-color: black;
+}
+.wrapper_holders::-webkit-scrollbar-button {
+	display: none;
+}
+.wrapper_holders::-webkit-scrollbar-track {
+	background: black;
 }
 
 .title {

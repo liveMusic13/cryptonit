@@ -1,6 +1,9 @@
+import { useCheckWidth } from '../../hooks/useCheckWidth';
 import styles from './TopHolders.module.css';
 
 const TopHolders = () => {
+	const { windowWidth } = useCheckWidth();
+
 	const data = [
 		{
 			id: 0,
@@ -83,7 +86,7 @@ const TopHolders = () => {
 	return (
 		<div className={styles.wrapper_holders}>
 			<h2 className={styles.title}>Top holders</h2>
-			{window.innerWidth <= 768.98 ? (
+			{windowWidth <= 768.98 ? (
 				<div className={styles.block__table_mini}>
 					{data.map(obj => (
 						<div key={obj.id} className={styles.object}>

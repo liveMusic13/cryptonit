@@ -7,7 +7,7 @@
 }
 
 .logo {
-	@apply text-base18 font-black uppercase;
+	@apply text-base18 font-black uppercase hover:text-color_eight hover:cursor-pointer;
 }
 
 .copy {
@@ -20,7 +20,7 @@
 
 .list,
 .list > a {
-	@apply font-medium text-color_three text-base;
+	@apply font-medium text-color_three text-base hover:text-color_eight hover:cursor-pointer PK1200:max-w-36;
 }
 
 .block__right {
@@ -32,11 +32,11 @@
 }
 
 .link > img {
-	@apply w-7 h-7;
+	@apply w-7 h-7 hover:cursor-pointer;
 }
 
 .exit {
-	@apply bg-transparent text-color_three flex items-center;
+	@apply bg-transparent text-color_three flex items-center hover:text-color_eight hover:cursor-pointer;
 }
 
 .icon__exit {

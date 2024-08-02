@@ -42,6 +42,23 @@ body {
 	overflow-x: hidden;
 }
 
+html {
+	overflow-y: hidden;
+}
+
+body::-webkit-scrollbar {
+	width: 2px;
+}
+body::-webkit-scrollbar-thumb {
+	background-color: black;
+}
+body::-webkit-scrollbar-button {
+	display: none;
+}
+body::-webkit-scrollbar-track {
+	background: black;
+}
+
 #root {
 	height: 100%;
 }

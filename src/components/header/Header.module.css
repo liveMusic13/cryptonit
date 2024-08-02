@@ -3,7 +3,7 @@
 }
 
 .logo {
-	@apply text-base18 font-black uppercase;
+	@apply text-base18 font-black uppercase hover:cursor-pointer hover:text-color_eight;
 }
 
 .block__input {
@@ -35,7 +35,7 @@
 }
 
 .link__about {
-	@apply text-color_three MOBILE375:mr-12;
+	@apply text-color_three MOBILE375:mr-12 hover:text-color_eight;
 }
 
 .block__socials {
@@ -43,11 +43,11 @@
 }
 
 .link > img {
-	@apply w-7 h-7;
+	@apply w-7 h-7 hover:cursor-pointer;
 }
 
 .exit {
-	@apply bg-transparent text-color_three flex items-center;
+	@apply bg-transparent text-color_three flex items-center hover:text-color_eight hover:cursor-pointer;
 }
 
 .icon__exit {
