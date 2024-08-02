@@ -65,7 +65,7 @@
 }
 
 .screen {
-	@apply h-2/3 w-full border-solid border-r border-color_three bg-[url('/images/bg_screen.png')] bg-no-repeat bg-cover bg-center PK1625:border-none PK1625:h-96 MOBILE869:h-auto MOBILE869:bg-[url('/images/bg_screen_mobile.png')] MOBILE869:bg-contain MOBILE869:-mt-20;
+	@apply h-2/3 w-full border-solid border-r border-color_three bg-[url('/images/bg_screen.png')] bg-no-repeat bg-cover bg-center PK1625:border-none PK1625:h-96 MOBILE869:h-auto MOBILE869:bg-[url('/images/bg_screen_mobile.png')] MOBILE869:bg-contain MOBILE869:-mt-20 MOBILE768:w-full;
 
 	@media (max-width: 1625px) {
 		height: 496px;

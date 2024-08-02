@@ -1,0 +1,44 @@
+.footer {
+	@apply bg-color_two w-full h-12 flex justify-between items-center px-9 py-10 TABLET1024:ps-5 MOBILE768:flex-col MOBILE768:h-56 MOBILE768:py-5 MOBILE768:px-0;
+}
+
+.block__logo {
+	@apply flex items-center gap-12 text-color_three TABLET1024:gap-5 MOBILE768:flex-col MOBILE768:gap-4;
+}
+
+.logo {
+	@apply text-base18 font-black uppercase hover:text-color_eight hover:cursor-pointer;
+}
+
+.copy {
+	@apply font-sans text-color_seven text-base TABLET1024:max-w-40 MOBILE768:text-center MOBILE768:max-w-36;
+}
+
+.menu {
+	@apply flex items-center gap-9 -ml-28 TABLET1024:-ml-12 MOBILE768:-ml-0;
+}
+
+.list,
+.list > a {
+	@apply font-medium text-color_three text-base hover:text-color_eight hover:cursor-pointer PK1200:max-w-36;
+}
+
+.block__right {
+	@apply flex gap-12 items-center TABLET1024:gap-7;
+}
+
+.block__socials {
+	@apply flex gap-2 items-center;
+}
+
+.link > img {
+	@apply w-7 h-7 hover:cursor-pointer;
+}
+
+.exit {
+	@apply bg-transparent text-color_three flex items-center hover:text-color_eight hover:cursor-pointer;
+}
+
+.icon__exit {
+	@apply w-6 h-7 ml-2;
+}

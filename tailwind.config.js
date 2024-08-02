@@ -10,8 +10,10 @@ export default {
 			PK1200: { max: '1200.98px' },
 			TABLET1024: { max: '1024.98px' },
 			MOBILE869: { max: '869.98px' },
+			MOBILE825: { max: '825.98px' },
 			MOBILE768: { max: '768.98px' },
 			MOBILE624: { max: '624.98px' },
+			MOBILE430: { max: '430.98px' },
 			MOBILE375: { max: '375.98px' },
 		},
 

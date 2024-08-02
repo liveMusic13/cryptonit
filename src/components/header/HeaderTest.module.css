@@ -1,0 +1,55 @@
+.header {
+	@apply text-color_three bg-color_two w-full h-12 flex justify-between items-center px-9 TABLET1024:px-5 MOBILE768:flex-wrap MOBILE768:h-24 MOBILE768:pt-3 MOBILE768:px-4;
+}
+
+.logo {
+	@apply text-base18 font-black uppercase hover:cursor-pointer hover:text-color_eight;
+}
+
+.block__input {
+	@apply relative -ml-96 mr-80 flex items-center gap-1 TABLET1024:-ml-3 TABLET1024:mr-0 PK1366:-ml-20 PK1625:-ml-4 PK1300:-mr-0;
+}
+
+.icon__search {
+	@apply absolute left-1 w-5 h-5;
+}
+
+.input {
+	@apply bg-color_ten rounded-3xl w-80 h-7 text-color_three pl-7 pt-1 outline-none MOBILE768:w-52 MOBILE768:w-40;
+}
+
+.mbSelect {
+	@apply bg-color_ten rounded-3xl h-7 w-12 flex items-center gap-1 justify-center;
+}
+
+.icon__searchS {
+	@apply w-3 h-3;
+}
+
+.icon__arrow {
+	@apply w-4 h-4;
+}
+
+.block__right {
+	@apply flex gap-12 items-center TABLET1024:gap-7;
+}
+
+.link__about {
+	@apply text-color_three MOBILE375:mr-12 hover:text-color_eight MOBILE430:mr-24 MOBILE768:mr-72 MOBILE624:mr-32;
+}
+
+.block__socials {
+	@apply flex gap-2 items-center MOBILE768:gap-1;
+}
+
+.link > img {
+	@apply w-7 h-7 hover:cursor-pointer;
+}
+
+.exit {
+	@apply bg-transparent text-color_three flex items-center hover:text-color_eight hover:cursor-pointer;
+}
+
+.icon__exit {
+	@apply w-6 h-7 ml-2;
+}

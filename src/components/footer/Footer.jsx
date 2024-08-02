@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import styles from './Footer.module.css';
+import styles from './FooterTest.module.css';
 
 const Footer = () => {
 	const nav = useNavigate();
