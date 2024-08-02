@@ -4,10 +4,14 @@ export default {
 	theme: {
 		screens: {
 			PK1920: { max: '1920.98px' },
+			PK1625: { max: '1625.98px' },
 			PK1366: { max: '1366.98px' },
+			PK1300: { max: '1300.98px' },
 			PK1200: { max: '1200.98px' },
 			TABLET1024: { max: '1024.98px' },
+			MOBILE869: { max: '869.98px' },
 			MOBILE768: { max: '768.98px' },
+			MOBILE624: { max: '624.98px' },
 			MOBILE375: { max: '375.98px' },
 		},
 

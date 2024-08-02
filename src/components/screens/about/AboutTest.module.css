@@ -1,0 +1,103 @@
+.trusted {
+	/* @apply bg-[url('/images/bg_about.jpg')] bg-no-repeat bg-cover bg-center w-full h-screen pt-24 pl-24 flex flex-col gap-48 relative; */
+	@apply bg-[url('/images/bg_about.jpg')] bg-no-repeat bg-cover bg-center w-full h-3/4 pl-24 pt-36 relative PK1625:pl-5 PK1625:pt-14 PK1625:h-full MOBILE869:pt-7 MOBILE869:pl-4;
+	@media (max-width: 1625px) {
+		height: 810px;
+	}
+	@media (max-width: 869.98px) {
+		height: 534px;
+	}
+}
+
+.block__hello {
+	@apply flex gap-44 PK1625:flex-col PK1625:gap-14 PK1625:min-h-96;
+}
+
+.block__hello > h1 {
+	@apply text-base160 text-color_five font-black MOBILE869:text-base52;
+}
+
+.block__hello > h1 > span {
+	@apply block text-color_three -mt-16 MOBILE869:-mt-5;
+}
+
+.block__hello > p {
+	@apply w-1/3 font-medium text-color_three text-base20 mt-60 PK1625:mt-0 MOBILE869:text-base16 MOBILE869:w-80 MOBILE869:ml-2;
+}
+
+.double__arrow {
+	@apply w-24 h-24 absolute left-1/2 bottom-16 MOBILE869:left-1/3;
+}
+
+.gentlemen {
+	@apply bg-[url('/images/bg_gentlemen.jpg')] bg-no-repeat bg-cover bg-center w-full h-3/4 flex PK1625:block PK1625:h-auto;
+
+	/* grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0.75fr 1.25fr; */
+}
+
+.one {
+	@apply w-1/2 PK1625:w-full;
+}
+
+.two {
+	@apply w-1/2 PK1625:w-full;
+}
+
+.block__title {
+	@apply border-solid border-r border-b border-color_three h-1/3 w-full flex justify-center items-center PK1625:border-none PK1625:pt-20 PK1625:pb-14 PK1625:pl-5 MOBILE869:pt-7 MOBILE869:pl-4 MOBILE869:pb-10;
+}
+
+.block__title > h2 {
+	@apply text-base72 text-color_three font-black MOBILE869:text-base36 MOBILE869:leading-9;
+
+	@media (max-width: 869.98px) {
+		max-width: 340px;
+	}
+}
+
+.block__title > h2 > span {
+	@apply text-color_five;
+}
+
+.none {
+	@apply h-1/3  w-full PK1625:hidden MOBILE869:hidden;
+}
+
+.screen {
+	@apply h-2/3 w-full border-solid border-r border-color_three bg-[url('/images/bg_screen.png')] bg-no-repeat bg-cover bg-center PK1625:border-none PK1625:h-96 MOBILE869:h-auto MOBILE869:bg-[url('/images/bg_screen_mobile.png')] MOBILE869:bg-contain MOBILE869:-mt-20;
+
+	@media (max-width: 1625px) {
+		height: 496px;
+	}
+}
+
+.block__description {
+	@apply h-2/3 w-full border-solid border-t border-color_three text-base20 text-color_three flex flex-col gap-5 items-center justify-center PK1625:border-none PK1625:py-12 MOBILE869:pt-0 MOBILE869:-mt-12 MOBILE869:px-4;
+}
+
+.description_one {
+	@apply font-bold max-w-lg PK1625:text-center;
+}
+
+.description {
+	@apply font-medium max-w-lg PK1625:text-center;
+}
+
+.ourTeam {
+	@apply bg-color_ten pt-28 flex flex-col gap-16 items-center MOBILE869:pt-9 MOBILE869:gap-5;
+}
+
+.ourTeam__title {
+	@apply font-black text-base160 text-color_three MOBILE869:text-base52;
+}
+
+.block__team {
+	@apply w-full bg-color_ten border-t border-b border-color_one border-solid px-9 mb-5;
+}
+
+.row__one,
+.row__two,
+.row__three {
+	@apply flex PK1625:overflow-x-auto PK1625:border-r PK1625:border-color_one PK1625:border-solid MOBILE869:border-none;
+}

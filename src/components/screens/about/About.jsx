@@ -4,7 +4,8 @@ import HandCard from '../../hand-card/HandCard';
 import Header from '../../header/Header';
 import Layout from '../../layout/Layout';
 import People from '../../people/People';
-import styles from './About.module.css';
+// import styles from './About.module.css';
+import styles from './AboutTest.module.css';
 
 const About = () => {
 	const { windowWidth } = useCheckWidth();

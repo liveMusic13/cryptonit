@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from './Statistics.module.css';
+import styles from './StatisticsTest.module.css';
 
 const Statistics = () => {
 	const data = [0, 1, 2];

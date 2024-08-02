@@ -1,0 +1,135 @@
+.block__statistics {
+	@apply bg-color_ten w-1/3 py-6 px-8 border-t border-solid border-color_eight MOBILE869:px-5 MOBILE869:py-5 overflow-x-hidden;
+
+	@media (max-width: 1366.98px) {
+		width: 40%;
+	}
+	@media (max-width: 624.98px) {
+		width: 100%;
+		height: 522px;
+		/* padding-top: 380px; */
+	}
+
+	@media (min-width: 1024px) and (max-width: 1366px),
+		(min-height: 600px) and (max-height: 768px) {
+		overflow-y: scroll;
+	}
+}
+.block__statistics::-webkit-scrollbar {
+	width: 2px;
+}
+.block__statistics::-webkit-scrollbar-thumb {
+	background-color: black;
+}
+.block__statistics::-webkit-scrollbar-button {
+	display: none;
+}
+.block__statistics::-webkit-scrollbar-track {
+	background: black;
+}
+
+.block__title {
+	@apply mb-4 flex gap-2 items-center justify-center;
+}
+
+.title__coin {
+	@apply w-6 h-6;
+}
+
+.title {
+	@apply text-color_three text-base18 font-bold;
+}
+
+.block__one {
+	@apply rounded-xl bg-transparent flex justify-center gap-1 MOBILE869:gap-0;
+}
+
+.block__liquidity {
+	@apply bg-color_one py-3 px-7 last:rounded-r-xl first:rounded-l-xl w-40 TABLET1024:px-3 MOBILE869:py-2 MOBILE869:px-1 MOBILE869:last:border-l MOBILE869:first:border-r border-solid border-color_ten;
+}
+
+.block__liquidity > h3 {
+	@apply text-color_seven font-medium text-base16 text-center MOBILE869:text-base;
+}
+
+.block__liquidity > p {
+	@apply text-base24 text-color_three mt-1 font-bold text-center MOBILE869:text-base20;
+}
+
+.block__two {
+	@apply rounded-xl mt-3;
+}
+
+.block__title_two {
+	@apply flex w-full;
+}
+
+.block__title_two > button {
+	@apply w-1/4 h-14 bg-color_ten border-solid border border-color_one first:rounded-tl-xl last:rounded-tr-xl text-color_seven;
+}
+
+.block__title_two > button > span {
+	@apply block;
+}
+
+.span_red {
+	@apply text-color_six;
+}
+
+.span_green {
+	@apply text-color_five;
+}
+
+.description_two {
+	@apply bg-color_one rounded-b-xl p-5 flex flex-col gap-5;
+}
+
+.obj {
+	@apply flex MOBILE869:flex-col MOBILE869:gap-1;
+}
+
+.title__obj {
+	@apply w-1/4 border-r border-solid border-color_nine pr-8 MOBILE869:w-full MOBILE869:border-none MOBILE869:flex MOBILE869:items-center MOBILE869:justify-between MOBILE869:pr-0;
+}
+
+.name {
+	@apply text-color_seven font-medium text-base16 MOBILE869:text-base;
+}
+
+.number {
+	@apply text-color_three font-bold text-base18 MOBILE869:text-base16;
+}
+
+.greenAndRed__block {
+	@apply pl-4 flex gap-1 w-full MOBILE869:pl-0;
+}
+
+.green {
+	@apply w-2/3;
+}
+
+.green > h4 {
+	@apply text-color_seven font-medium text-base16 mb-1;
+}
+
+.green > div {
+	@apply font-bold text-base13 text-color_two bg-color_five rounded-l-2xl rounded-r-md pl-3;
+}
+
+.green > div > p {
+}
+
+.red {
+	@apply w-1/3;
+}
+
+.red > h4 {
+	@apply text-color_seven font-medium text-base16 mb-1;
+}
+
+.red > div {
+	@apply font-bold text-base13 text-color_three bg-color_six rounded-r-2xl rounded-l-md pr-3 text-end;
+}
+
+.red > div > p {
+}

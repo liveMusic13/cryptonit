@@ -7,7 +7,7 @@
 }
 
 .block__input {
-	@apply relative -ml-96 mr-80 flex items-center gap-1 TABLET1024:-ml-3 TABLET1024:mr-0 PK1366:-ml-20;
+	@apply relative -ml-96 mr-80 flex items-center gap-1 TABLET1024:-ml-3 TABLET1024:mr-0 PK1366:-ml-20 PK1625:-ml-4 PK1300:-mr-0;
 }
 
 .icon__search {
