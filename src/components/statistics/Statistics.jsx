@@ -150,7 +150,7 @@ const Statistics = () => {
 				className={`${styles.block__one} rounded-xl bg-transparent flex justify-center gap-1 MOBILE869:gap-0`}
 			>
 				<div
-					className={`${styles.block__liquidity} bg-color_one py-3 px-7 last:rounded-r-xl first:rounded-l-xl w-40 TABLET1024:px-3 MOBILE869:py-2 MOBILE869:px-1 MOBILE869:last:border-l MOBILE869:first:border-r border-solid border-color_ten`}
+					className={`${styles.block__liquidity} bg-color_one py-3 px-7 last:rounded-r-xl first:rounded-l-xl w-40 PK1200:px-3 MOBILE869:py-2 MOBILE869:px-1 MOBILE869:last:border-l MOBILE869:first:border-r border-solid border-color_ten`}
 				>
 					<h3
 						className={`${styles.block__liquidity} text-color_seven font-medium text-base16 text-center MOBILE869:text-base`}
@@ -164,7 +164,7 @@ const Statistics = () => {
 					</p>
 				</div>
 				<div
-					className={`${styles.block__liquidity} bg-color_one py-3 px-7 last:rounded-r-xl first:rounded-l-xl w-40 TABLET1024:px-3 MOBILE869:py-2 MOBILE869:px-1 MOBILE869:last:border-l MOBILE869:first:border-r border-solid border-color_ten`}
+					className={`${styles.block__liquidity} bg-color_one py-3 px-7 last:rounded-r-xl first:rounded-l-xl w-40 PK1200:px-3 MOBILE869:py-2 MOBILE869:px-1 MOBILE869:last:border-l MOBILE869:first:border-r border-solid border-color_ten`}
 				>
 					<h3
 						className={`${styles.block__liquidity} text-color_seven font-medium text-base16 text-center MOBILE869:text-base`}
@@ -178,7 +178,7 @@ const Statistics = () => {
 					</p>
 				</div>
 				<div
-					className={`${styles.block__liquidity} bg-color_one py-3 px-7 last:rounded-r-xl first:rounded-l-xl w-40 TABLET1024:px-3 MOBILE869:py-2 MOBILE869:px-1 MOBILE869:last:border-l MOBILE869:first:border-r border-solid border-color_ten`}
+					className={`${styles.block__liquidity} bg-color_one py-3 px-7 last:rounded-r-xl first:rounded-l-xl w-40 PK1200:px-3 MOBILE869:py-2 MOBILE869:px-1 MOBILE869:last:border-l MOBILE869:first:border-r border-solid border-color_ten`}
 				>
 					<h3
 						className={`${styles.block__liquidity} text-color_seven font-medium text-base16 text-center MOBILE869:text-base`}

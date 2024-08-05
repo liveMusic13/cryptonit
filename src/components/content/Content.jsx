@@ -54,7 +54,7 @@ const Content = () => {
 			<div
 				className={`${styles.block__content} w-full relative MOBILE624:bg-color_ten h-full`}
 			>
-				{windowWidth <= 1024.98 ? (
+				{windowWidth <= 1200.98 ? (
 					<img
 						src='/images/mock_graph1024.png'
 						alt='mock_graph'
@@ -62,11 +62,11 @@ const Content = () => {
 					/>
 				) : (
 					<div
-						className={`${styles.mock__image} w-full h-1/2 bg-[url('/images/mock_graph.png')] bg-no-repeat bg-cover bg-center PK1366:bg-[url('/images/mock_graph1366.png')] TABLET1024:bg-[url('/images/mock_graph1024.png')]`}
+						className={`${styles.mock__image} w-full h-1/2 bg-[url('/images/mock_graph.png')] bg-no-repeat bg-cover bg-center PK1366:bg-[url('/images/mock_graph1366.png')] PK1200:bg-[url('/images/mock_graph1024.png')]`}
 					></div>
 				)}
 				<div
-					className={`${styles.block__information} flex h-1/2 overflow-hidden TABLET1024:pl-16 MOBILE624:flex-col MOBILE624:bg-color_ten MOBILE624:h-full`}
+					className={`${styles.block__information} flex h-1/2 overflow-hidden PK1200:pl-16 MOBILE624:flex-col MOBILE624:bg-color_ten MOBILE624:h-full`}
 				>
 					{windowWidth <= 624.98 && <Statistics />}
 					<TopHolders />

@@ -76,11 +76,11 @@ const LeftInterface = () => {
 
 	const miniCoin = [1, 2, 3, 4, 5];
 
-	// console.log(windowWidth, windowWidth <= 1024.98);
+	// console.log(windowWidth, windowWidth <= 1200.98);
 
 	return (
 		<>
-			{windowWidth <= 1024.98 && !isViewInterface ? (
+			{windowWidth <= 1200.98 && !isViewInterface ? (
 				<div
 					className={`${styles.block__interface_mini} w-16 bg-color_ten border-r border-color_eight border-solid p-3 absolute z-10 h-full`}
 				>
@@ -115,7 +115,7 @@ const LeftInterface = () => {
 				<div
 					className={`${styles.block__interface} w-80 h-full py-7 bg-color_ten text-color_seven border-r border-color_eight border-solid PK1366:w-60 relative MOBILE375:w-full`}
 					style={
-						windowWidth <= 1024.98 && isViewInterface
+						windowWidth <= 1200.98 && isViewInterface
 							? {
 									position: 'absolute',
 									zIndex: '30',
@@ -125,7 +125,7 @@ const LeftInterface = () => {
 							: {}
 					}
 				>
-					{windowWidth <= 1024.98 && isViewInterface && (
+					{windowWidth <= 1200.98 && isViewInterface && (
 						<button
 							className={`${styles.button__open} w-8 h-8 bg-color_ten rounded-3xl border border-color_eight border-solid absolute z-30 top-4 -right-4 flex items-center justify-center`}
 							onClick={() => setIsViewInterface(!isViewInterface)}
@@ -146,7 +146,7 @@ const LeftInterface = () => {
 							/>
 						</button>
 					)}
-					{windowWidth <= 1024.98 && isViewInterface && (
+					{windowWidth <= 1200.98 && isViewInterface && (
 						<div className={`${styles.block1024} flex gap-4 px-7 items-center`}>
 							<img
 								src='/images/icons/paper.svg'
@@ -160,7 +160,7 @@ const LeftInterface = () => {
 							</h2>
 						</div>
 					)}
-					{windowWidth >= 1024.98 && (
+					{windowWidth >= 1200.98 && (
 						<h2
 							className={`${styles.title} text-base18 font-bold text-color_three px-8`}
 						>

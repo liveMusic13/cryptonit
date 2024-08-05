@@ -165,7 +165,7 @@ const About = () => {
 				/>
 			</section>
 			<section
-				className={`${styles.gentlemen} bg-[url('/images/bg_gentlemen.jpg')] bg-no-repeat bg-cover bg-center w-full h-3/4 flex PK1625:block PK1625:h-auto`}
+				className={`${styles.gentlemen} bg-[url('/images/bg_gentlemen.jpg')] bg-no-repeat bg-cover bg-center w-full h-3/4 MOBILE869:h-auto flex PK1625:block PK1625:h-auto`}
 			>
 				<div className='w-1/2 PK1625:w-full'>
 					<div
@@ -177,12 +177,12 @@ const About = () => {
 							prices are starting to fall
 						</h2>
 					</div>
-					<div className="h-2/3 w-full border-solid border-r border-color_three bg-[url('/images/bg_screen.png')] bg-no-repeat bg-cover bg-center PK1625:border-none PK1625:h-96 MOBILE869:h-auto MOBILE869:bg-[url('/images/bg_screen_mobile.png')] MOBILE869:bg-contain MOBILE869:-mt-20 MOBILE768:w-full"></div>
+					<div className="h-2/3 w-full border-solid border-r border-color_three bg-[url('/images/bg_screen.png')] bg-no-repeat bg-cover bg-center PK1625:border-none PK1625:h-96 MOBILE869:bg-[url('/images/bg_screen_mobile.png')] MOBILE869:bg-contain MOBILE869:-mt-20 MOBILE768:w-full MOBILE869:mt-0"></div>
 				</div>
 				<div className='w-1/2 PK1625:w-full'>
 					<div className='h-1/3 w-full PK1625:hidden MOBILE869:hidden'></div>
 					<div
-						className={`${styles.block__description} h-2/3 w-full border-solid border-t border-color_three text-base20 text-color_three flex flex-col gap-5 items-center justify-center PK1625:border-none PK1625:py-12 MOBILE869:pt-0 MOBILE869:-mt-12 MOBILE869:px-4`}
+						className={`${styles.block__description} h-2/3 w-full border-solid border-t border-color_three text-base20 text-color_three flex flex-col gap-5 items-center justify-center PK1625:border-none PK1625:py-12 MOBILE869:pt-0 MOBILE869:-mt-12 MOBILE869:px-4 MOBILE869:mt-5`}
 					>
 						<p className='font-bold max-w-lg PK1625:text-center'>
 							We are a team of experienced traders who have been in the market
