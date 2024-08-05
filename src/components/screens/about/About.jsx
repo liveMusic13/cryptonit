@@ -162,11 +162,12 @@ const About = () => {
 					<div className={styles.block__title}>
 						<h2>
 							<span>Gentlemen,</span> gasoline{' '}
-							{windowWidth <= 375.98 && (
-								<>
-									<br />
-								</>
-							)}{' '}
+							{/* {windowWidth <= 375.98 && ( */}
+							<>
+								{/* <br className='block sm:hidden' /> */}
+								<br className={styles.test} />
+							</>
+							{/* )}{' '} */}
 							prices are starting to fall
 						</h2>
 					</div>

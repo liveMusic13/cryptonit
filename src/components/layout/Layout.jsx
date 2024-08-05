@@ -1,7 +1,5 @@
-import styles from './Layout.module.css';
-
 const Layout = ({ children }) => {
-	return <div className={styles.wrapper}>{children}</div>;
+	return <div className={'h-full'}>{children}</div>;
 };
 
 export default Layout;

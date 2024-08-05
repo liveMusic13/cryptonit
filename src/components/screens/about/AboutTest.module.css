@@ -101,3 +101,7 @@
 .row__three {
 	@apply flex PK1625:overflow-x-auto PK1625:border-r PK1625:border-color_one PK1625:border-solid MOBILE869:border-none;
 }
+
+.test {
+	@apply MOBILE375:hidden;
+}

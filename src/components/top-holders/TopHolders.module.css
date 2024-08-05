@@ -1,15 +1,14 @@
-.wrapper_holders {
-	@apply border border-color_eight border-solid bg-color_two w-2/3;
+/* src/components/Holders.module.css */
 
+.wrapper_holders {
+	/* Tailwind стили перенесены в JSX */
 	@media (max-width: 1366.98px) {
 		width: 60%;
 	}
-
-	@media (max-width: 375.98px) {
+	@media (max-width: 624.98px) {
 		width: 100%;
 		/* margin-top: 800px; */
 	}
-
 	@media (min-width: 1024px) and (max-width: 1366px),
 		(min-height: 600px) and (max-height: 768px) {
 		overflow-y: scroll;
@@ -29,19 +28,18 @@
 }
 
 .title {
-	@apply w-full py-5 px-8 text-color_three font-bold text-base18 bg-color_ten;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__table {
 }
 
 .block__title {
-	@apply flex;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__column {
-	@apply [&:nth-child(3)]:w-56 [&:nth-child(2)]:w-56 last:w-auto first:w-52 flex gap-1 items-center py-4 px-7 border border-color_one border-solid PK1366:[&:nth-child(2)]:w-32 PK1366:[&:nth-child(3)]:w-32 PK1366:first:w-44 PK1366:px-5 PK1366:last:w-56;
-	/* @apply [&:nth-child(3)]:w-1/4 [&:nth-child(2)]:w-1/4 last:w-auto first:w-52; */
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__column:nth-child(4) {
@@ -49,78 +47,78 @@
 }
 
 .block__column > img {
-	@apply w-5 h-5 mr-1;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__column > h3 {
-	@apply text-color_seven uppercase text-base font-medium;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .object {
-	@apply text-base text-color_three border-y border-solid border-color_one flex py-4 px-7;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .object > h4 {
-	@apply text-color_four w-52;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .object > p {
-	@apply text-color_three first:w-56 [&:nth-child(2)]:w-56 [&:nth-child(3)]:w-56 [&:nth-child(4)]:pl-12 PK1366:[&:nth-child(2)]:w-32 PK1366:[&:nth-child(3)]:w-32 PK1366:first:w-44;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__table_mini {
 }
 
 .block__table_mini > .object {
-	@apply text-base text-color_three border-y border-solid border-color_one flex py-5 px-5 gap-6 MOBILE375:flex-wrap;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .acc {
 }
 
 .acc > h4 {
-	@apply text-base text-color_seven uppercase flex items-center gap-1 mb-1;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .acc > h4 > img {
-	@apply w-5 h-5;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .acc > p {
-	@apply text-color_four;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__two_mini {
 }
 
 .row__one {
-	@apply mb-1 flex;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .row__one > img {
-	@apply w-5 h-5 mr-1;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .row__one > p {
 }
 
 .row__two {
-	@apply flex;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .row__two > img {
-	@apply w-5 h-5 mr-1;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .row__two > p {
 }
 
 .block__market_mini > h4 {
-	@apply text-base text-color_seven uppercase flex items-center gap-1 mb-1;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__market_mini > h4 > img {
-	@apply w-5 h-5 mr-1;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__market_mini > p {
