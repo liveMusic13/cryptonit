@@ -1,35 +1,37 @@
+/* src/components/ComponentName.module.css */
+
 .block__people {
-	@apply w-1/4 p-7 bg-color_ten border border-color_one border-solid flex flex-col gap-5 items-center TABLET1024:min-w-80 MOBILE375:border-none;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .photo {
-	@apply w-64 TABLET1024:w-56;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__description {
-	@apply flex flex-col gap-4;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__title {
-	@apply flex justify-between items-center w-full TABLET1024:flex-col TABLET1024:items-start TABLET1024:gap-1;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .name {
-	@apply text-color_three font-bold text-base24;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__position {
-	@apply flex gap-2 items-center rounded-l-3xl rounded-r-md bg-color_one py-1 px-3;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .circle {
-	@apply w-2 h-2 rounded-2xl bg-color_five;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .position {
-	@apply font-bold text-base20 text-color_five;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .description {
-	@apply font-medium text-color_seven text-base16;
+	/* Tailwind стили перенесены в JSX */
 }

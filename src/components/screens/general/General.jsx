@@ -10,8 +10,12 @@ const General = () => {
 	return (
 		<Layout>
 			<Header />
-			<div className={styles.block__content}>
-				<h1 className={styles.title}>
+			<div
+				className={`${styles.block__content} bg-color_ten pb-5 flex flex-col items-center justify-center TABLET1024:px-5 MOBILE375:px-0`}
+			>
+				<h1
+					className={`${styles.title} fixed top-24 text-color_five text-base72 text-center font-black max-w-4xl bg-color_ten TABLET1024:left-5 TABLET1024:text-start TABLET1024:w-full MOBILE375:text-base36 MOBILE375:top-28`}
+				>
 					GENERAL TERMS AND
 					{windowWidth > 375 && (
 						<>
@@ -26,10 +30,16 @@ const General = () => {
 					)}{' '}
 					OF THE WEBSITE
 				</h1>
-				<div className={styles.block__description}>
-					<div className={styles.description}>
-						<h2>Acceptance of terms and conditions of use</h2>
-						<p>
+				<div
+					className={`${styles.block__description} max-w-4xl mt-96 TABLET1024:max-w-full MOBILE375:mt-64`}
+				>
+					<div
+						className={`${styles.description} border border-solid border-color_one w-full p-20 flex flex-col items-center justify-center gap-2 MOBILE375:border-r-0 MOBILE375:border-l-0 MOBILE375:p-5`}
+					>
+						<h2 className='text-base52 text-color_three font-black mb-5 MOBILE375:text-base28'>
+							Acceptance of terms and conditions of use
+						</h2>
+						<p className='text-base20 text-color_three font-medium MOBILE375:text-base16'>
 							Any person accessing this website and make use of it declares to
 							know and also accepts these “General Conditions”, fully accessible
 							to any user through its “Legal Notice”. Knowledge and acceptance
@@ -40,9 +50,13 @@ const General = () => {
 							the right to make use of this Website
 						</p>
 					</div>
-					<div className={styles.description}>
-						<h2>Web Site Ownership</h2>
-						<p>
+					<div
+						className={`${styles.description} border border-solid border-color_one w-full p-20 flex flex-col items-center justify-center gap-2 MOBILE375:border-r-0 MOBILE375:border-l-0 MOBILE375:p-5`}
+					>
+						<h2 className='text-base52 text-color_three font-black mb-5 MOBILE375:text-base28'>
+							Web Site Ownership
+						</h2>
+						<p className='text-base20 text-color_three font-medium MOBILE375:text-base16'>
 							This Web Page (www.cryptonit.app) is the property of SIA GUDVA.
 							The intellectual property rights and rights of exploitation and
 							reproduction of said Web Site, as well as its content, appearance
@@ -51,7 +65,7 @@ const General = () => {
 							or its contents may be prosecuted in accordance with applicable
 							law.
 						</p>
-						<p>
+						<p className='text-base20 text-color_three font-medium MOBILE375:text-base16'>
 							SIA GUDVA reserves the right to modify, update, expand and delete
 							at any time, without prior notice, the content of this Website,
 							including its own conditions of use. Likewise, it may restrict or
@@ -59,14 +73,18 @@ const General = () => {
 							appropriate and at its sole discretion.
 						</p>
 					</div>
-					<div className={styles.description}>
-						<h2>Scope of the Websit</h2>
-						<p>
+					<div
+						className={`${styles.description} border border-solid border-color_one w-full p-20 flex flex-col items-center justify-center gap-2 MOBILE375:border-r-0 MOBILE375:border-l-0 MOBILE375:p-5`}
+					>
+						<h2 className='text-base52 text-color_three font-black mb-5 MOBILE375:text-base28'>
+							Scope of the Websit
+						</h2>
+						<p className='text-base20 text-color_three font-medium MOBILE375:text-base16'>
 							All information made available to the user through this website
 							constitutes its “Content” and shall be for information purposes
 							only.
 						</p>
-						<p>
+						<p className='text-base20 text-color_three font-medium MOBILE375:text-base16'>
 							It is not the intention of the Company to use this Web Site as a
 							means or instrument, directly or indirectly, of conducting
 							business or contracting for services. Under no circumstances
@@ -75,7 +93,7 @@ const General = () => {
 							contract, or as an offer to enter into any other type of
 							transaction, unless expressly stated otherwise.
 						</p>
-						<p>
+						<p className='text-base20 text-color_three font-medium MOBILE375:text-base16'>
 							The content of this Website does not entail any kind of legal,
 							financial or any other kind of advice by the Company in relation
 							to the performance in the cryptocurrency market, being its purpose
@@ -88,13 +106,13 @@ const General = () => {
 							user to assess and, if necessary, assume the risks associated with
 							the contracting in such markets.
 						</p>
-						<p>
+						<p className='text-base20 text-color_three font-medium MOBILE375:text-base16'>
 							This Web Site may contain information provided by entities other
 							than SIA GUDVA shall not be liable for the accuracy of such
 							information nor shall it assume any responsibility for any
 							possible damages that may arise from the use of such information.
 						</p>
-						<p>
+						<p className='text-base20 text-color_three font-medium MOBILE375:text-base16'>
 							This website contains links to other websites with the intention
 							of facilitating and providing the user with better information
 							about the matters and activities that constitute the corporate
@@ -104,21 +122,25 @@ const General = () => {
 							for the security or privacy of these links or the content of such
 							websites.
 						</p>
-						<p>
+						<p className='text-base20 text-color_three font-medium MOBILE375:text-base16'>
 							Third parties wishing to establish links to this Website must
 							obtain prior written authorization from SIA GUDVA to do so.
 						</p>
 					</div>
-					<div className={styles.description}>
-						<h2>Website Usage</h2>
-						<p>
+					<div
+						className={`${styles.description} border border-solid border-color_one w-full p-20 flex flex-col items-center justify-center gap-2 MOBILE375:border-r-0 MOBILE375:border-l-0 MOBILE375:p-5`}
+					>
+						<h2 className='text-base52 text-color_three font-black mb-5 MOBILE375:text-base28'>
+							Website Usage
+						</h2>
+						<p className='text-base20 text-color_three font-medium MOBILE375:text-base16'>
 							The contents of this website may be downloaded, if available,
 							copied and printed for personal use only. The Company is not
 							responsible for any discrepancies that may arise between the
 							printed version and the electronic version of the information
 							contained in this website.
 						</p>
-						<p>
+						<p className='text-base20 text-color_three font-medium MOBILE375:text-base16'>
 							Without prejudice to the provisions of the preceding paragraph,
 							the copying, duplication, redistribution, electronic reproduction,
 							printing, commercialization, marketing or any other use that may
@@ -132,23 +154,27 @@ const General = () => {
 							prior written consent of the Company.
 						</p>
 					</div>
-					<div className={styles.description}>
-						<h2>Responsibilities</h2>
-						<p>
+					<div
+						className={`${styles.description} border border-solid border-color_one w-full p-20 flex flex-col items-center justify-center gap-2 MOBILE375:border-r-0 MOBILE375:border-l-0 MOBILE375:p-5`}
+					>
+						<h2 className='text-base52 text-color_three font-black mb-5 MOBILE375:text-base28'>
+							Responsibilities
+						</h2>
+						<p className='text-base20 text-color_three font-medium MOBILE375:text-base16'>
 							The Company makes no warranty and shall not be liable for any
 							damages, losses, losses, claims or expenses of any nature
 							whatsoever arising out of or in connection with the use, inability
 							to use or the unlawful, negligent or fraudulent use of this Web
 							Site.
 						</p>
-						<p>
+						<p className='text-base20 text-color_three font-medium MOBILE375:text-base16'>
 							In order to provide a better service to users, the Company may
 							carry out updates and improvements to the content of this Website.
 							However, given the free and open nature of the operation of the
 							markets to which it refers, the information contained in this
 							Website shall in no case have an official nature.
 						</p>
-						<p>
+						<p className='text-base20 text-color_three font-medium MOBILE375:text-base16'>
 							SIA GUDVA makes the information contained in its Web Site
 							available to the user in accordance with the current state of the
 							art, which does not guarantee the total security and privacy of
@@ -159,9 +185,13 @@ const General = () => {
 							susceptible to interception.
 						</p>
 					</div>
-					<div className={styles.description}>
-						<h2>Applicable Law and Jurisdiction</h2>
-						<p>
+					<div
+						className={`${styles.description} border border-solid border-color_one w-full p-20 flex flex-col items-center justify-center gap-2 MOBILE375:border-r-0 MOBILE375:border-l-0 MOBILE375:p-5`}
+					>
+						<h2 className='text-base52 text-color_three font-black mb-5 MOBILE375:text-base28'>
+							Applicable Law and Jurisdiction
+						</h2>
+						<p className='text-base20 text-color_three font-medium MOBILE375:text-base16'>
 							This legal notice and the SIA GUDVA website are governed by Latvia
 							law. The resolution of any discrepancy that may arise between this
 							Company and the user of the service shall be subject to the

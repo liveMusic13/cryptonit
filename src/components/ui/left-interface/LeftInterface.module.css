@@ -1,92 +1,92 @@
+/* src/components/HeaderTest.module.css */
+
 .block__interface {
-	@apply w-80 h-full py-7 bg-color_ten text-color_seven border-r border-color_eight border-solid PK1366:w-60 relative MOBILE375:w-full;
-	/* border: 1px solid yellow; */
+	/* Tailwind стили перенесены в JSX */
 }
 
 .title {
-	@apply text-base18 font-bold text-color_three px-8;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__tokens {
-	@apply flex flex-col PK1366:overflow-y-auto;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__token {
-	@apply border-b border-color_one py-7 border-solid px-8 PK1366:pb-3;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__title {
-	@apply flex gap-2 mb-3 MOBILE768:items-center;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .icon__image {
-	@apply w-10 h-10;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .title__coin {
-	@apply text-base16 font-bold text-color_three;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__middle {
-	@apply flex justify-between items-center PK1366:flex-wrap;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .elem {
 }
 
 .elem > h3 {
-	@apply text-base font-medium;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .elem > p {
-	@apply text-color_three text-base16 font-medium;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__end {
-	@apply flex gap-x-3 flex-wrap mt-3;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .end__paragraph {
-	@apply text-base font-medium;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .end__paragraph > img {
-	@apply w-3 h-3;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__interface_mini {
-	@apply w-16 bg-color_ten border-r border-color_eight border-solid p-3 absolute z-10 h-full;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .button__open {
-	@apply w-8 h-8 bg-color_ten rounded-3xl border border-color_eight border-solid absolute z-30 top-4 -right-4 flex items-center justify-center;
-	box-shadow: 0px 4px 24px black;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .button__open > img {
-	@apply w-6 h-6;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .title__image {
-	@apply w-10 h-10 mb-14;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block__coins_mini {
-	@apply flex flex-col gap-7;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .mini__coin {
-	@apply w-10 h-10;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block1024 {
-	@apply flex gap-4 px-7 items-center;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .block1024 > .title {
-	@apply px-0;
+	/* Tailwind стили перенесены в JSX */
 }
 
 .title__image_1024 {
-	@apply w-10 h-10;
+	/* Tailwind стили перенесены в JSX */
 }
