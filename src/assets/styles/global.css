@@ -5,6 +5,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+	.scrollbar-custom::-webkit-scrollbar {
+		width: 1px;
+		height: 4px;
+	}
+
+	.scrollbar-custom:hover {
+		cursor: pointer;
+	}
+
+	.scrollbar-custom::-webkit-scrollbar-track {
+		background: #08090c;
+	}
+
+	.scrollbar-custom::-webkit-scrollbar-thumb {
+		background: #181c25;
+	}
+}
+
 *,
 *::before,
 *::after {

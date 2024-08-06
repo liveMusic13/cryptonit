@@ -130,7 +130,7 @@ const Statistics = () => {
 
 	return (
 		<div
-			className={`${styles.block__statistics} bg-color_ten w-1/3 py-6 px-8 border-t border-solid border-color_eight MOBILE869:px-5 MOBILE869:py-5 overflow-x-hidden`}
+			className={`${styles.block__statistics} scrollbar-custom bg-color_ten w-1/3 py-6 px-8 border-t border-solid border-color_eight MOBILE869:px-5 MOBILE869:py-5 overflow-x-hidden`}
 		>
 			<div
 				className={`${styles.block__title} mb-4 flex gap-2 items-center justify-center`}

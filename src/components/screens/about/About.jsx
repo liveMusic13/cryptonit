@@ -204,7 +204,7 @@ const About = () => {
 					Our Team
 				</h2>
 				<div className='w-full bg-color_ten border-t border-b border-color_one border-solid px-9 mb-5'>
-					<div className='flex PK1625:overflow-x-auto PK1625:border-r PK1625:border-color_one PK1625:border-solid MOBILE869:border-none'>
+					<div className='flex scrollbar-custom PK1625:overflow-x-auto PK1625:border-r PK1625:border-color_one PK1625:border-solid MOBILE869:border-none'>
 						{teamOne.map(people =>
 							people.icon === null ? (
 								<People key={people.id} data={people} />
@@ -213,7 +213,7 @@ const About = () => {
 							)
 						)}
 					</div>
-					<div className='flex PK1625:overflow-x-auto PK1625:border-r PK1625:border-color_one PK1625:border-solid MOBILE869:border-none'>
+					<div className='flex scrollbar-custom PK1625:overflow-x-auto PK1625:border-r PK1625:border-color_one PK1625:border-solid MOBILE869:border-none'>
 						{teamTwo.map(people =>
 							people.icon === null ? (
 								<People key={people.id} data={people} />
@@ -222,7 +222,7 @@ const About = () => {
 							)
 						)}
 					</div>
-					<div className='flex PK1625:overflow-x-auto PK1625:border-r PK1625:border-color_one PK1625:border-solid MOBILE869:border-none'>
+					<div className='flex scrollbar-custom PK1625:overflow-x-auto PK1625:border-r PK1625:border-color_one PK1625:border-solid MOBILE869:border-none'>
 						{teamThree.map(people =>
 							people.icon === null ? (
 								<People key={people.id} data={people} />

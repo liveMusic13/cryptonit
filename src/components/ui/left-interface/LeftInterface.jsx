@@ -168,7 +168,7 @@ const LeftInterface = () => {
 						</h2>
 					)}
 					<div
-						className={`${styles.block__tokens} flex flex-col PK1366:overflow-y-auto`}
+						className={`${styles.block__tokens} flex flex-col scrollbar-custom PK1366:overflow-y-auto`}
 					>
 						{array.map(block => (
 							<div

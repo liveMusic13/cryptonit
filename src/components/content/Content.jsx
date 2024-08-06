@@ -48,7 +48,7 @@ const Content = () => {
 
 	return (
 		<div
-			className={`${styles.wrapper_content} flex w-full h-full overflow-hidden MOBILE624:overflow-y-auto MOBILE624:overflow-x-hidden`}
+			className={`${styles.wrapper_content} scrollbar-custom flex w-full h-full overflow-hidden MOBILE624:overflow-y-auto MOBILE624:overflow-x-hidden`}
 		>
 			<LeftInterface />
 			<div
@@ -66,7 +66,7 @@ const Content = () => {
 					></div>
 				)}
 				<div
-					className={`${styles.block__information} flex h-1/2 overflow-hidden PK1200:pl-16 MOBILE624:flex-col MOBILE624:bg-color_ten MOBILE624:h-full`}
+					className={`${styles.block__information} flex h-1/2 scrollbar-custom overflow-hidden PK1200:pl-16 MOBILE624:flex-col MOBILE624:bg-color_ten MOBILE624:h-full`}
 				>
 					{windowWidth <= 624.98 && <Statistics />}
 					<TopHolders />

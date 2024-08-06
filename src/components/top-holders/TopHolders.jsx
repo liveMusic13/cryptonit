@@ -139,7 +139,7 @@ const TopHolders = () => {
 	// );
 	return (
 		<div
-			className={`${styles.wrapper_holders} border border-color_eight border-solid bg-color_two w-2/3`}
+			className={`${styles.wrapper_holders} scrollbar-custom border border-color_eight border-solid bg-color_two w-2/3`}
 		>
 			<h2
 				className={`${styles.title} w-full py-5 px-8 text-color_three font-bold text-base18 bg-color_ten`}
