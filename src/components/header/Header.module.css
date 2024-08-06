@@ -2,6 +2,7 @@
 
 .header {
 	/* Tailwind стили перенесены в JSX */
+	width: 100% !important;
 }
 
 .logo {
